@@ -1,0 +1,11 @@
+#include <stdio.h>
+int add(int a, int b){
+	int c;
+	__asm__ {
+		mov rdi, a;
+		mov rsi, b;
+		add rdi,rsi;
+		
+		
+	}
+}

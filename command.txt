@@ -1,0 +1,3 @@
+/home/sneaky/Documents/emsdk/emscripten/1.38.26/emcc test.c -s WASM=1 -s SIDE_MODULE=1 -O1 -Os -s "EXPORTED_FUNCTIONS=['_add']" -g -o test.wasm
+
+Export names in sorted order of function listing
